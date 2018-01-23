@@ -114,3 +114,21 @@ body, html, h1 {
   background-color: black;
   color: white;
 }
+
+@media  (max-width: 1000px) {
+  #main__container {
+    flex-direction: column;
+  }
+  .post {
+    width: 45%;
+    padding: 15px;
+  }
+  #post__container {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .post {
+    width: 100%;
+  }
+}
