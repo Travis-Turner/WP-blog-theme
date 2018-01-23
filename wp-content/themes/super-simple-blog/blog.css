@@ -1,0 +1,116 @@
+body, html, h1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar__container {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+.navbar__left {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.navbar__left a {
+  text-decoration: none;
+  font-family: 'Nunito Sans';
+  color: black;
+}
+.navbar__left a:hover {
+  color: #50ffe2;
+}
+.navbar__right {
+  width: 75%;
+}
+
+/* jumbotron */
+#jumbotron {
+  height: 120px;
+  letter-spacing: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#jumbotron h1 {
+  font-size: 100px;
+  font-family: 'Open Sans Condensed';
+}
+#subtitle, #pretitle {
+  font-family: 'Open Sans Condensed';
+}
+#pretitle {
+  align-self: flex-start;
+  padding-top: 10px;
+  font-weight: 700;
+}
+#subtitle {
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+/* main container */
+#main__container {
+  display: flex;
+}
+/* post container */
+#post__container {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+}
+/* post */
+.post {
+  width: 40%;
+  padding: 0 40px 40px 40px;
+}
+.post h2, h3, h4, p, a  {
+  font-family: 'Nunito Sans';
+}
+.post a {
+  text-decoration: none;
+  color: black;
+}
+.post h2 {
+  margin-bottom: 0;
+}
+.post h3 {
+  margin-top: 0;
+  text-indent: 10px;
+}
+#return-link {
+  text-decoration: none;
+  color: black;
+  height: 10px;
+  margin-left: 10px;
+}
+/* side-bar */
+#sidebar__container {
+  margin-top: 200px;
+  width: 20%;
+}
+#sidebar__container p {
+  padding: 10px 0 10px 10px;
+  margin-right: 10px;
+}
+#about p {
+  background-color: rgb(205, 205, 205);
+  border-radius: 3px;
+  padding: 20px;
+}
+.read-more {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 2px;
+}
+.read-more-p {
+  margin-top: 20px;
+}
+.read-more:hover {
+  background-color: black;
+  color: white;
+}
